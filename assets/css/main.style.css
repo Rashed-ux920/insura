@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+
+:root{
+    /* typography */
+
+    --main-font: "BBH Bogle", sans-serif;
+
+    --extra-large-font:1.8rem;
+    --large-font: 1.5rem;
+    --mediume-font: 1.36rem;
+    --small-font: 1.1rem;
+
+    /* desktop view  */
+    --header-speacing: 1.5rem 2rem;
+
+    /* colors  */
+    --bg-main-color: #232323;
+    --primary-main-color: #4A70A9;
+    --hover-main-color: #FFFFFF;
+    --attraction-main-color: #8FABD4;
+    --text-main-color: #EFECE3;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-main-color);
+    font-family: var(--main-font);
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: var(--hover-main-color);
+}
+
+span{
+    color: var(--attraction-main-color);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: var(--header-speacing);
+}
+
+.logo-div a{
+    font-size: var(--extra-large-font);
+    letter-spacing: 1em;
+    font-weight: 300;
+}
+
+.navbar, .user-regestration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: var(--mediume-font);
+    font-weight: 200;
+}
+

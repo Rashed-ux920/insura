@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+
+    .navbar{
+        display: none;
+    }
+    .user-regestration{
+        display: none;
+    }
+}
