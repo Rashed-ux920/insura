@@ -46,6 +46,20 @@ span{
     color: var(--attraction-main-color);
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: var(--header-speacing);
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -79,6 +93,25 @@ header{
     font-weight: 200;
 }
 
+.f-box{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.contact{
+    background: var(--primary-main-color);
+    padding: 1rem 0;
+    border-radius: 5px;
+}
+
+.left-part,.right-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 /* footer */
 
 .quicklinks-top{
@@ -131,6 +164,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background: #000;
+    padding: 1rem 0;
 }
 
 .copyright{
