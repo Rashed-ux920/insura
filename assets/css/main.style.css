@@ -57,7 +57,20 @@ section{
 label{
     display: flex;
     flex-direction: column;
-    width: 120px;
+    /* gap: 1rem; */
+    color: var(--text-main-color);
+    font-weight: 600;
+    font-size: var(--x-small-font);
+}
+
+input, textarea{
+    border: 2px solid var(--attraction-main-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+textarea{
+    width: 100%;
 }
 
 header{
@@ -93,16 +106,18 @@ header{
     font-weight: 200;
 }
 
+.contact{
+    
+    padding: 1rem 0;
+    border-radius: 5px;
+    gap: 20rem;
+
+}
+
 .f-box{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-}
-
-.contact{
-    background: var(--primary-main-color);
-    padding: 1rem 0;
-    border-radius: 5px;
 }
 
 .left-part,.right-part{
@@ -111,6 +126,14 @@ header{
     justify-content: center;
     align-items: center;
     
+}
+
+.alignment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 /* footer */
 
