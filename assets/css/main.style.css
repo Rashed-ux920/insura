@@ -9,6 +9,7 @@
     --large-font: 1.5rem;
     --mediume-font: 1.36rem;
     --small-font: 1.1rem;
+    --x-small-font: 0.8rem;
 
     /* desktop view  */
     --header-speacing: 1.5rem 2rem;
@@ -78,7 +79,52 @@ header{
     font-weight: 200;
 }
 
-.lid
+/* footer */
+
+.quicklinks-top{
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dream{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--text-main-color);
+    width: 17rem;
+    gap: 1rem;
+}
+
+.dream p{
+    font-size: var(--x-small-font);
+    font-weight: 500;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.list p, .dream #heading{
+    text-transform: capitalize;
+    font-size: var(--mediume-font);
+    color: var(--primary-main-color);
+}
+
+.list a{
+    font-weight: 300;
+}
 
 .copyright-section{
     display: flex;
