@@ -111,12 +111,56 @@ header{
     font-weight: 200;
 }
 
+
+
 .contact{
     
     padding: 1rem 0;
     border-radius: 5px;
-    gap: 20rem;
+    gap: 4rem;
 
+}
+
+.left-part{
+    gap: 1rem;
+    color: var(--attraction-main-color);
+    background: #000;
+    padding: 3rem 2rem;
+    border: 1px solid var(--primary-main-color);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.layout-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--hover-main-color);
+    width: 20rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-color{
+    color: var(--primary-main-color);
+    font-family: var(--secondry-font);
+    font-size: var(--mediume-font);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-color span{
+    font-size: var(--large-font);
 }
 
 .f-box{

@@ -7,3 +7,11 @@
         display: none;
     }
 }
+@media (max-width: 768px) {
+    .left-part{
+        padding: 3rem 2.5rem;
+    }
+    .info-details{
+        padding: 0.5rem 1.5rem;
+    }
+}
