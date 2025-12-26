@@ -1,8 +1,13 @@
-@media (max-width: 800px) {
-
-    .navbar{
+@media (max-width: 977px){
+    .user-regestration{
         display: none;
     }
+}
+@media (max-width: 800px) {
+
+    /* .navbar{
+        display: none;
+    } */
     .user-regestration{
         display: none;
     }

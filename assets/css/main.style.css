@@ -104,12 +104,12 @@ header{
     margin: var(--header-speacing);
     padding: 1rem;
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.1px);
     -webkit-backdrop-filter: blur(4.1px);
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.14); */
 }
 
 .logo-div a{
@@ -181,6 +181,15 @@ header{
     padding: 1.5rem;
     color: #FFFFFF;
     font-size: var(--small-font);
+    text-transform: capitalize;
+    font-family: var(--main-font);
+}
+
+.card-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
     text-transform: capitalize;
 }
 /* contact section  */
