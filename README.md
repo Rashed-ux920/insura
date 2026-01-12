@@ -1,3 +1,4 @@
+<img width="1872" height="827" alt="INSURA" src="https://github.com/user-attachments/assets/cb15eaad-ca45-49a4-9efa-88714c326db0" />
 # Insura Landing Page
 
 A modern, responsive SaaS landing page for Insura - a web-based insurance platform that automates workflows, eliminates manual forms, and streamlines insurance agency operations.
