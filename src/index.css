@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-deep-black text-white antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent;
+  }
+  
+  .green-glow {
+    box-shadow: 0 0 20px rgba(29, 185, 84, 0.3);
+  }
+  
+  .green-glow-hover:hover {
+    box-shadow: 0 0 30px rgba(29, 185, 84, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+}
