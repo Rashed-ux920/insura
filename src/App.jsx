@@ -10,10 +10,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Pricing from './components/Pricing'
 
-/**
- * Main App Component
- * Insura Landing Page - Modern SaaS platform for insurance agencies
- */
+
 function App() {
   return (
     <div className="min-h-screen bg-deep-black">

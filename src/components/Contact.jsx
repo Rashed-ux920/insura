@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 
-
-function Contact() {
+const Contact = () => {
    const [formData, setFormData] = useState({
     name: "",
     email: "",
