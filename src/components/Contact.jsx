@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+import AuthList from "../auth/regex/statments";
+import { useState } from "react";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
